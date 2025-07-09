@@ -46,6 +46,8 @@
 
     in
     {
+      formatter = pkgs.nixfmt-rfc-style;
+
       packages.default = fastanimeEnv;
 
       # DevShell for development
